@@ -158,10 +158,6 @@ let () =
                  ; "dec", command_dec ] in
   Command.group ~summary:"Foo" ~readme:(fun() -> "I POOP ON YOUR FACE") commands
   |> Command.run ~version:"0.0.1" ~build_info:"lol"
-(*  let dev = get_backlight_device in
-    let current_brightness = read_brightness dev in
-    let max_brightness = read_max_brightness dev in
-    printf "%d %d\n" current_brightness max_brightness*)
 
 
 
